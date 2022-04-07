@@ -15,3 +15,8 @@ highlight_theme = "ayu-dark"
 
 [extra]
 # Put all your custom variables here
+d3_nav = [
+  #{ name = "HOME", path = "/" },
+  { name = "POSTS", path = "/posts/" }
+]
+d3_author = "radiotaiso"
