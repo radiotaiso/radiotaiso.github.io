@@ -9,9 +9,9 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3.0.0
       - name: build and deploy
-      - uses: shalzz/zola-deploy-action@v0.17.2
-        working-directory: ./rantaiso
+        uses: shalzz/zola-deploy-action@v0.17.2
         env:
+          BUILD_DIR: .rantaiso
           # Target branch
           PAGES_BRANCH: gh-pages
           # Provide personal access token
