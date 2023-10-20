@@ -4,14 +4,12 @@ name: Build and deploy GH Pages
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./rantaiso
     if: github.ref == 'refs/heads/main'
     steps:
       - name: checkout
         uses: actions/checkout@v3.0.0
       - name: build and deploy
+        working-directory: ./rantaiso
         uses: shalzz/zola-deploy-action@v0.17.2
         env:
           # Target branch
