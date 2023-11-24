@@ -21,6 +21,7 @@ drwxr-xr-x     - arkantos  6 dic  2022  'System Volume Information'
 
 ```
 
+<!-- more -->
 
 ### Goles ⚽🥅
 - [X] Encontrar donde se monta en el sistema
