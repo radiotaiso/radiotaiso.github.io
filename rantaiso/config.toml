@@ -51,3 +51,8 @@ menu_items = [
     # set newtab to true to make the link open in new tab
     {name = "github", url = "https://github.com/radiotaiso", newtab = true},
 ]
+# Optional: Global favicon URL and mimetype.
+#           Mimetype defaults to "image/x-icon".
+#           The URL should point at a file located
+#           in your site's "static" directory.
+favicon = "/static/favicon.png"
